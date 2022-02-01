@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" name="testrunner1(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.vtigerOrgTest.CreateOrgTest">
+        <methods>
+          <include name="configAm"/>
+          <include name="CreateOrgwithindustry"/>
+          <include name="configAs"/>
+          <include name="configAc"/>
+          <include name="CreateOrg"/>
+          <include name="configBs"/>
+          <include name="configBc"/>
+          <include name="configBm"/>
+        </methods>
+      </class> <!-- com.vtigerOrgTest.CreateOrgTest -->
+    </classes>
+  </test> <!-- testrunner1(failed) -->
+  <test thread-count="2" name="secoundtest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.vtigerOrgTest.CreateOrgTest">
+        <methods>
+          <include name="configAm"/>
+          <include name="CreateOrgwithindustry"/>
+          <include name="configAs"/>
+          <include name="configAc"/>
+          <include name="CreateOrg"/>
+          <include name="configBs"/>
+          <include name="configBc"/>
+          <include name="configBm"/>
+        </methods>
+      </class> <!-- com.vtigerOrgTest.CreateOrgTest -->
+    </classes>
+  </test> <!-- secoundtest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
