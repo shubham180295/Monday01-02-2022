@@ -86,7 +86,7 @@ public class CreateOrgTest  extends BaseClassAnnotation {
 		System.out.println("org is not creat sucesfullly with industry failed");
 		
 		
-		System.out.println("i want to commit ");
+		System.out.println("i want to commitw ");
 	}
 		//Assert.assertTrue(actualindustery.contains(industry));
 	}}
